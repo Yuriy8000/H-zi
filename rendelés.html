@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rendelés</title>
+</head>
+<body>
+   <form method="post" action="http://bujdoso.hu">
+    <label for="form-name">
+    <input type="text" name="neve"/>
+</label>
+<br/>
+
+<input type="Jelszó" name="Jelszó" > <br/>
+<label for="from-auto-mazda">
+    <input type="radio" name="auto" id="from-auto-mazda" value="0"> Mazda
+</label> <br/>
+
+<label for="from-auto-opel">
+    <input type="radio" name="auto" id="from-auto-opel" value="0"> Opel
+</label> <br/>
+
+<label for="from-auto-kia">
+    <input type="radio" name="auto" id="from-auto-kia" value="0"> Kia
+</label> <br/>
+
+<label for="from-auto-lada">
+    <input type="radio" name="auto" id="from-auto-lada" value="0"> Lada
+</label> <br/>
+
+<select name="color"><option id="form-color">
+    <optgroup label="=Monokróm színek"></optgroup>
+	<option value="0">kék</option>
+	<option value="1">fekete</option>
+	<option value="2">fehér</option>
+</optgroup>
+<optgroup label="színek">
+    <optgroup label="=Monokróm színek"></optgroup>
+	<option value="0">kék</option>
+	<option value="1" disabled>fekete</option>
+	<option value="2">fehér</option>
+</optgroup>
+</br>
+
+<input type="checkbox" name="sz" value="1" id="form-sz" required/>
+<label for="form-sz">Elfogadó</label>
+</br>
+
+<input type="color" name="color" /></br>
+
+
+<input type="date" name="date" /></br>
+
+<input type="datetime-local" name="datetime-local" /></br>
+
+<input type="email" name="email" /></br>
+
+<input type="hidden" name="hidden" value="7524,323543,453,435" /></br>
+
+<input type="month" name="month"/></br>
+
+<input type="number" name="number" min="19" max="50" step="2" required/></br>
+
+<input type="range" name="range" min="1" max="10" /></br>
+</br>
+
+<input type="search" name="search" /></br>
+</br>
+
+<input type="tel" name="tel" /></br>
+</br>
+
+
+<input type="time" name="time" /></br>
+</br>
+<input type="url" name="url" /></br>
+</br>
+<input type="week" name="week" /></br>
+</br>
+
+    <button type="submit">küldés</button>
+    <input type="reset" name="reset">
+   </form> 
+</body>
+</html>
